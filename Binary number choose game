@@ -1,0 +1,32 @@
+#Binary number game
+#Choose a number between 1 to 100
+
+print('Enter a number between 1 to 50')
+num= int(input())
+while True:
+    
+    
+
+    while (num<1 or num>100):
+        num=int(input('Enter a valid number between 1 to 50'))
+
+    import random
+
+    rand = random.randint(1,50)
+    a= rand29
+    
+
+    k=0
+
+    while (a>num):
+        num= int(input('choose a big number'))
+        k += 1
+    while (num> a):
+        num = int(input('chose a small number'))
+        k +=1
+    while a == num :
+        print('your number is =',num, 'computer number is=',rand)
+       
+        print('you win after ',k, 'attempt')
+        break
+
